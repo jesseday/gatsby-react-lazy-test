@@ -11,13 +11,14 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve --port=8888",
     "clean": "gatsby clean"
   },
   "license": "0BSD",
   "dependencies": {
     "gatsby": "next",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-tracking": "^9.3.1"
   }
 }

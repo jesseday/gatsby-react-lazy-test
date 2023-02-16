@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { track } from 'react-tracking';
 
 function QuoteModule({
   title,
@@ -30,4 +31,6 @@ function QuoteModule({
   );
 }
 
-export default QuoteModule;
+export default track({
+  component: 'quote-module',
+})(QuoteModule);

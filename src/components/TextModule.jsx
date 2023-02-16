@@ -1,4 +1,5 @@
 import React from 'react';
+import { track } from 'react-tracking';
 
 function TextModule({
   text,
@@ -14,4 +15,6 @@ function TextModule({
   );
 }
 
-export default TextModule;
+export default track({
+  component: 'text-module',
+})(TextModule);
